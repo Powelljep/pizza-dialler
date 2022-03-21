@@ -1,0 +1,54 @@
+body {
+    background-image: url("../assets/pizza-background-white-wooden-table-top-view-free-space-your-text-rustic-style-pizza-background-white-wooden-table-168103854.jpg");
+    color: rgb(46, 5, 5);
+    font-family: 'Cantarell', sans-serif;
+
+}
+
+.intro {
+    background-color: rgb(23, 22, 75);
+    color: #fff;
+    border-radius: 5px;
+}
+.intro p{
+    font-family: 'Parisienne', cursive;
+}
+.intro h1{
+    font-family: 'Cantarell', sans-serif;
+}
+/*------------------order section -----------------------*/
+
+.oder-section {
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
+.small img {
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+.medium img {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+.large img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+/*----------------------footer--------------------*/
+footer{
+    background-color: rgb(23, 22, 75);
+    color: #fff;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+}
