@@ -23,21 +23,12 @@ body {
     background-color: aliceblue;
     
 }
-.small img {
+img {
     height: 100px;
     width: 100px;
     border-radius: 80px;
 }
-.medium img {
-    height: 150px;
-    width: 150px;
-    border-radius: 80px;
-}
-.large img {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-}
+
 /*----------------------footer--------------------*/
 footer{
     background-color: rgb(23, 22, 75);
