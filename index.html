@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Kanit:wght@300;400&family=Parisienne&display=swap" rel="stylesheet">      
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
     <title>Pizza Dialler</title>
 </head>
 <body class="container">
@@ -22,12 +22,12 @@
 
     <section class="container oder-section">
             <div class="size">
-                <form class="form-control">
+                <form class="form-control" id="order-form">
                     <div class="size">
                         <h1>Pizza Size</h1>
                         <img src="assets/domino-s-pizza.jpg" alt="" class="rounded-circle img-fluid">    
                         <label for="size" class="form-label">Select size:</label>
-                        <select class="form-select" id="size">
+                        <select class="form-select" id="size" name="size">
                             <option>Small</option>
                             <option>Medium</option>
                             <option>Large</option>
@@ -38,7 +38,7 @@
                         <h1>Pizza Crust</h1>
                         <img src="assets/Product-Plain_Crust.png" alt="" class="rounded-circle img-fluid">
                         <label for="crust" class="form-label">What crust type do you prefer:</label>
-                        <select class="form-select" id="crust">
+                        <select class="form-select" id="crust" name="crust">
                             <option>Crispy</option>
                             <option>Stuffed</option>
                             <option>Gluten-free</option>
@@ -48,7 +48,7 @@
                         <h1>Pizza Toppings</h1>
                         <img src="assets/toppings.jpg" alt="" class="rounded-circle img-fluid">
                         <label for="toppings" class="form-label">What toppings type do you prefer:</label>
-                        <select class="form-select" id="toppings">
+                        <select class="form-select" id="toppings" name="toppings">
                             <option>Pepperoni</option>
                             <option>Mushrooms</option>
                             <option>Onions</option>
@@ -56,7 +56,7 @@
                             <option>Extra cheese</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3">Order</button>
+                    <button type="submit" class="btn btn-primary mt-3 order-btn">Order</button>
                 </form>
             </div>      
     </section>
