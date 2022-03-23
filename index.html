@@ -28,9 +28,9 @@
                         <img src="assets/domino-s-pizza.jpg" alt="" class="rounded-circle img-fluid">    
                         <label for="size" class="form-label">Select size:</label>
                         <select class="form-select" id="size" name="size">
-                            <option>Small</option>
-                            <option>Medium</option>
-                            <option>Large</option>
+                            <option>small</option>
+                            <option>medium</option>
+                            <option>large</option>
                         </select>
                     </div>
                     
@@ -39,26 +39,49 @@
                         <img src="assets/Product-Plain_Crust.png" alt="" class="rounded-circle img-fluid">
                         <label for="crust" class="form-label">What crust type do you prefer:</label>
                         <select class="form-select" id="crust" name="crust">
-                            <option>Crispy</option>
-                            <option>Stuffed</option>
-                            <option>Gluten-free</option>
+                            <option>crispy</option>
+                            <option>stuffed</option>
+                            <option>gluten-free</option>
                         </select>
                     </div>
-                    <div class="toppings">
+                    <div class="topping">
                         <h1>Pizza Toppings</h1>
                         <img src="assets/toppings.jpg" alt="" class="rounded-circle img-fluid">
                         <label for="toppings" class="form-label">What toppings type do you prefer:</label>
-                        <select class="form-select" id="toppings" name="toppings">
-                            <option>Pepperoni</option>
-                            <option>Mushrooms</option>
-                            <option>Onions</option>
-                            <option>Bacon</option>
-                            <option>Extra cheese</option>
+                        <select class="form-select" id="topping" name="topping">
+                            <option>peperoni</option>
+                            <option>mushrooms</option>
+                            <option>onions</option>
+                            <option>bacon</option>
+                            <option>cheese</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary mt-3 order-btn">Order</button>
                 </form>
-            </div>      
+            </div> 
+            <div class="container my-orders">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>order-number</th>
+                            <th>size</th>
+                            <th>crust</th>
+                            <th>topping</th>
+                            <th>total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>   
     </section>
     <footer class="container my-3">
         <h1>Pizza Dialler</h1>
