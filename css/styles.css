@@ -29,6 +29,10 @@ img {
     
 }
 
+.my-orders {
+    display: none;
+}
+
 /*----------------------footer--------------------*/
 footer{
     background-color: rgb(23, 22, 75);
